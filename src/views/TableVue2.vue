@@ -3,7 +3,7 @@
     dense
     :headers="headers"
     :items="userList"
-    item-key="name"
+    item-key="id"
     class="elevation-1"
   >
     <template v-slot:[`item.avatar`]="{ item }">
