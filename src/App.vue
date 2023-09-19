@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import TableVue2 from "@/views/TableVue2.vue";
+import TableVue2 from "@/views/tableVue2/index.vue";
 export default {
   name: "App",
   components: {

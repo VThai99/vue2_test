@@ -41,6 +41,7 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {
+      "vue/no-v-model-argument": "off",
       "vue/no-multiple-template-root": "off"
     }
   },

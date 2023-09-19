@@ -1,7 +1,8 @@
-<script lang="ts" setup>
-defineProps<{
-	show: boolean;
-}>();
+<script>
+export default{
+	name: 'ModalComp',
+	props: ['show']
+}
 </script>
 <template>
 	<Transition>
